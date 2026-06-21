@@ -93,7 +93,6 @@ document.addEventListener("DOMContentLoaded", () => {
     if (index==0){
         let heading=document.querySelector(".modle_sectio_h1");
         let img=document.querySelector(".car_adv_img2");
-            
         img.style.backgroundImage='url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Promo-Meet-Model-Y-Desktop.jpg")';
         img.style.transition="background-image 1s ease";
         heading.innerText="Model Y";
